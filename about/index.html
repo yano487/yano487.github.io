@@ -1,0 +1,220 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>关于 | yano's blog</title><meta name="author" content="yano"><meta name="copyright" content="yano"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="👤 whoami1yano &#x2F; 学生开发者 &#x2F; 全栈偏后  还在上学，已经上了后端这条船。写代码这件事，从第一行 printf 就上瘾了。不给自己设限 — 能跑通的都叫技术栈，写不出的都在计划单上。 目前的状态是：白天上课，晚上 build。  🛠 stack dumpBackendJava Go Python Spring Boot Flask Gin RESTful GraphQL gRP">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于">
+<meta property="og:url" content="https://yano487.github.io/about/index.html">
+<meta property="og:site_name" content="yano&#39;s blog">
+<meta property="og:description" content="👤 whoami1yano &#x2F; 学生开发者 &#x2F; 全栈偏后  还在上学，已经上了后端这条船。写代码这件事，从第一行 printf 就上瘾了。不给自己设限 — 能跑通的都叫技术栈，写不出的都在计划单上。 目前的状态是：白天上课，晚上 build。  🛠 stack dumpBackendJava Go Python Spring Boot Flask Gin RESTful GraphQL gRP">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://yano487.github.io/img/face.jpg">
+<meta property="article:published_time" content="2025-11-14T16:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-08T14:06:09.855Z">
+<meta property="article:author" content="yano">
+<meta property="article:tag" content="后端,Java,Go,全栈,SpringBoot,Docker">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://yano487.github.io/img/face.jpg"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://yano487.github.io/about/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '关于',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/face.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="page type-about" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">yano's blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">关于</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><h2 id="👤-whoami"><a href="#👤-whoami" class="headerlink" title="👤 whoami"></a>👤 whoami</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yano / 学生开发者 / 全栈偏后</span><br></pre></td></tr></table></figure>
+
+<p>还在上学，已经上了后端这条船。写代码这件事，从第一行 <code>printf</code> 就上瘾了。不给自己设限 — 能跑通的都叫技术栈，写不出的都在计划单上。</p>
+<p>目前的状态是：<strong>白天上课，晚上 build</strong>。</p>
+<hr>
+<h2 id="🛠-stack-dump"><a href="#🛠-stack-dump" class="headerlink" title="🛠 stack dump"></a>🛠 stack dump</h2><p><strong>Backend</strong><br><code>Java</code> <code>Go</code> <code>Python</code> <code>Spring Boot</code> <code>Flask</code> <code>Gin</code> <code>RESTful</code> <code>GraphQL</code> <code>gRPC</code></p>
+<p><strong>Frontend</strong><br><code>Vue</code> <code>React（学习中）</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Vite</code></p>
+<p><strong>Database</strong><br><code>MySQL</code> <code>PostgreSQL</code> <code>Redis</code> <code>MongoDB</code></p>
+<p><strong>DevOps &#x2F; Infra</strong><br><code>Docker</code> <code>K8s（入门中）</code> <code>GitHub Actions</code> <code>Nginx</code> <code>Linux</code></p>
+<p><strong>Tools</strong><br><code>Git</code> <code>VS Code</code> <code>Postman</code> <code>Figma（看得懂）</code> <code>ChatGPT（最佳队友）</code></p>
+<hr>
+<h2 id="🎯-focus"><a href="#🎯-focus" class="headerlink" title="🎯 focus"></a>🎯 focus</h2><ul>
+<li>后端架构设计与 RESTful API 开发</li>
+<li>容器化部署 &amp; CI&#x2F;CD 流水线</li>
+<li>开源项目贡献（GitHub 常驻）</li>
+<li>技术文章输出 — 以写促学</li>
+</ul>
+<hr>
+<h2 id="📌-beyond-code"><a href="#📌-beyond-code" class="headerlink" title="📌 beyond code"></a>📌 beyond code</h2><table>
+<thead>
+<tr>
+<th>标签</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>📷 摄影</td>
+<td>Lightroom 选手，扫街爱好者</td>
+</tr>
+<tr>
+<td>🚴 骑行</td>
+<td>周末 30km 打底，路线即自由</td>
+</tr>
+<tr>
+<td>☕ 咖啡</td>
+<td>手冲入门中 — 比调试 bug 难</td>
+</tr>
+<tr>
+<td>🎮 游戏</td>
+<td>单机叙事党，独立游戏支持者</td>
+</tr>
+<tr>
+<td>📖 阅读</td>
+<td>技术书 + 科幻，纸质书死忠</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="📬-contact"><a href="#📬-contact" class="headerlink" title="📬 contact"></a>📬 contact</h2><ul>
+<li><strong>GitHub</strong> <a target="_blank" rel="noopener" href="https://github.com/yano487">github.com&#x2F;yano487</a></li>
+<li><strong>Email</strong> <code>yano487@outlook.com</code> <em>(替换为你的邮箱)</em></li>
+</ul>
+<blockquote>
+<p>这个 About 页面会持续更新 — 技术栈在长，人在变，博客也是。</p>
+</blockquote>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/face.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">yano</div><div class="author-info-description">学生开发者 · 全栈偏后 · 写代码也写生活</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/yano487"><i class="fab fa-github"></i><span>GitHub</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">🚧 博客持续建设中 · 记录学习与成长</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/15/test/" title="test">test</a><time datetime="2025-11-15T15:17:51.000Z" title="发表于 2025-11-15 23:17:51">2025-11-15</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/15/hello-world/" title="Hello World">Hello World</a><time datetime="2025-11-15T15:01:45.414Z" title="发表于 2025-11-15 23:01:45">2025-11-15</time></div></div></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/11/">
+            <span class="card-archive-list-date">
+              十一月 2025
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-06-08T14:40:31.835Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By yano</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"></div><script async data-pjax src="/"></script></div></body></html>
